@@ -143,6 +143,11 @@ app.use("/api/laserSurgeryBanner", require("./controllers/LaserSurgeryController
 app.use("/api/laserSurgeryProblems", require("./controllers/LaserSurgeryController/LaserSurgeryProblems"));
 app.use("/api/laserSurgeryWhyAssana", require("./controllers/LaserSurgeryController/LaserSurgeryWhyAssana"));
 
+app.use("/api/analFissureBanner", require("./controllers/AnalFissureController/AnalFissureBanner"));
+app.use("/api/analFissureProblems", require("./controllers/AnalFissureController/AnalFissureProblems"));
+
+
+
 
 
 
