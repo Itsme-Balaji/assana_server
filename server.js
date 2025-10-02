@@ -124,10 +124,17 @@ app.use("/api/assanaTreat", require("./controllers/assanaTreatController"));
 app.use("/api/productPage", require("./controllers/ProductController/ProductPageController"));
 app.use("/api/video", require("./controllers/VideoController"));
 
+// --------------------------------------------------------------------------------------
 
 app.use("/api/colorectalSymptomsBanner", require("./controllers/ColorectalSymptomsController/ColorectalSymptomsBanner"));
 app.use("/api/colorectalSymptomsProblems", require("./controllers/ColorectalSymptomsController/ColorectalSymptomsProblems"));
 app.use("/api/colorectalSymptomsWhyAssana", require("./controllers/ColorectalSymptomsController/ColorectalSymptomsWhyAssana"));
+
+
+app.use("/api/pilesorHaemorrhoidsBanner", require("./controllers/PilesorHaemorrhoidsController/PilesorHaemorrhoidsBanner"));
+app.use("/api/pilesorHaemorrhoidsProblems", require("./controllers/PilesorHaemorrhoidsController/PilesorHaemorrhoidsProblems"));
+
+
 
 
 
