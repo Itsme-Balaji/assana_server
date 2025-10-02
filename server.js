@@ -139,6 +139,14 @@ app.use("/api/bandingofPilesProblems", require("./controllers/BandingofPilesCont
 app.use("/api/bandingofPilesWhyAssana", require("./controllers/BandingofPilesController/BandingofPilesWhyAssana"));
 
 
+app.use("/api/laserSurgeryBanner", require("./controllers/LaserSurgeryController/LaserSurgeryBanner"));
+app.use("/api/laserSurgeryProblems", require("./controllers/LaserSurgeryController/LaserSurgeryProblems"));
+app.use("/api/laserSurgeryWhyAssana", require("./controllers/LaserSurgeryController/LaserSurgeryWhyAssana"));
+
+
+
+
+
 
 
 
