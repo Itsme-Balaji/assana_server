@@ -26,7 +26,7 @@ app.use(
       "http://localhost:5173", 
       "http://localhost:3000",  // Local dev
       "https://assana.vercel.app",
-      "https://assana-doctorwebsite-dashboard.vercel.app" // Deployed frontend
+      "https://assana-doctorwebsite-dashboard1.vercel.app" // Deployed frontend
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
