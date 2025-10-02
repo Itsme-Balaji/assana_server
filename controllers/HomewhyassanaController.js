@@ -1,0 +1,51 @@
+const express = require("express");
+const router = express.Router();
+const connectDB = require("../db");
+const homewhyAssanaComponentModel = require("../models/HomeBannerModel");
+
+
+
+
+router.post(
+  "/dataAdd", async (req, res) => {
+    try {
+      const homewhyAssanaComponentData = {
+        ...req.body,
+      };
+
+      const updatedDoc = await homewhyAssanaComponentModel.findOneAndUpdate(
+        {}, // only one landing page
+        { $set: homewhyAssanaComponentData },
+        { new: true, upsert: true }
+      );
+
+      res.send({ status: 1, message: "saved", data: updatedDoc });
+    } catch (error) {
+      console.error("Error saving:", error);
+      res.status(500).send({ status: 0, message: "Internal server error" });
+    }
+  }
+);
+
+
+
+router.get("/dataGet", async (req, res) => {
+  try {
+        await connectDB();
+    
+    const data = await homewhyAssanaComponentModel.findOne(); // single landing page
+    res.status(200).send({
+      status: 1,
+      message: "success",
+      data: data,
+    });
+  } catch (error) {
+    console.error("Fetch error:", error);
+    res.status(500).send({ status: 0, message: "Internal server error" });
+  }
+});
+
+
+
+
+module.exports = router
