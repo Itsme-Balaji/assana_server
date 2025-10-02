@@ -134,6 +134,13 @@ app.use("/api/colorectalSymptomsWhyAssana", require("./controllers/ColorectalSym
 app.use("/api/pilesorHaemorrhoidsBanner", require("./controllers/PilesorHaemorrhoidsController/PilesorHaemorrhoidsBanner"));
 app.use("/api/pilesorHaemorrhoidsProblems", require("./controllers/PilesorHaemorrhoidsController/PilesorHaemorrhoidsProblems"));
 
+app.use("/api/bandingofPilesBanner", require("./controllers/BandingofPilesController/BandingofPilesBanner"));
+app.use("/api/bandingofPilesProblems", require("./controllers/BandingofPilesController/BandingofPilesProblems"));
+app.use("/api/bandingofPilesWhyAssana", require("./controllers/BandingofPilesController/BandingofPilesWhyAssana"));
+
+
+
+
 
 
 
