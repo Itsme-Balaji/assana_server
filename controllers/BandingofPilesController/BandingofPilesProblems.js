@@ -11,6 +11,7 @@ const supabase = require("../../supabaseClient");
 router.post(
   "/dataAdd",
   upload.fields([
+    { name: "Banding_Piles_Image", maxCount: 1 },
 
 
   ]),
@@ -46,6 +47,8 @@ router.post(
         req.files?.Banding_Piles_Image?.[0],
         req.body.Banding_Piles_ImageOld || existingDoc?.Banding_Piles_Image
       );
+
+
 
       // Save or update
       const updatedDoc = await BandingofPilesProblems.findOneAndUpdate(
