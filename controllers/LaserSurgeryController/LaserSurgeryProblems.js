@@ -43,9 +43,9 @@ router.post(
       };
 
       // Handle files
-      LaserSurgeryProblemsData.Banding_Piles_Image = await uploadToSupabase(
-        req.files?.Banding_Piles_Image?.[0],
-        req.body.Banding_Piles_ImageOld || existingDoc?.Banding_Piles_Image
+      LaserSurgeryProblemsData.LaserSurgery_Image = await uploadToSupabase(
+        req.files?.LaserSurgery_Image?.[0],
+        req.body.LaserSurgery_ImageOld || existingDoc?.LaserSurgery_Image
       );
 
 
