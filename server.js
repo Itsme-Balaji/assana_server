@@ -151,6 +151,12 @@ app.use("/api/analFistulaBanner", require("./controllers/AnalFistulaController/A
 app.use("/api/analFistulaProblems", require("./controllers/AnalFistulaController/AnalFistulaProblems"));
 
 
+app.use("/api/afterAnalSurgeryBanner", require("./controllers/AfterAnalSurgeryController/AfterAnalSurgeryBanner"));
+app.use("/api/afterAnalSurgeryProblems", require("./controllers/AfterAnalSurgeryController/AfterAnalSurgeryProblems"));
+
+
+
+
 
 
 
