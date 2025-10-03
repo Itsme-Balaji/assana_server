@@ -160,22 +160,9 @@ app.use("/api/pelvicFloorProblems", require("./controllers/PelvicFloorController
 app.use("/api/pelvicFloorWhyAssana", require("./controllers/PelvicFloorController/PelvicFloorWhyAssana"));
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+app.use("/api/colonRectalCancerBanner", require("./controllers/ColonRectalCancerController/ColonRectalCancerBanner"));
+app.use("/api/colonRectalCancerProblems", require("./controllers/ColonRectalCancerController/ColonRectalCancerProblems"));
+app.use("/api/colonRectalCancerWhyAssana", require("./controllers/ColonRectalCancerController/ColonRectalCancerWhyAssana"));
 
 
 
