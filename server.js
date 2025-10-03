@@ -155,6 +155,13 @@ app.use("/api/afterAnalSurgeryBanner", require("./controllers/AfterAnalSurgeryCo
 app.use("/api/afterAnalSurgeryProblems", require("./controllers/AfterAnalSurgeryController/AfterAnalSurgeryProblems"));
 
 
+app.use("/api/pelvicFloorBanner", require("./controllers/PelvicFloorController/PelvicFloorBanner"));
+app.use("/api/pelvicFloorProblems", require("./controllers/PelvicFloorController/PelvicFloorProblems"));
+app.use("/api/pelvicFloorWhyAssana", require("./controllers/PelvicFloorController/PelvicFloorWhyAssana"));
+
+
+
+
 
 
 
