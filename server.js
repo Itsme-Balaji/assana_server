@@ -165,6 +165,12 @@ app.use("/api/colonRectalCancerProblems", require("./controllers/ColonRectalCanc
 app.use("/api/colonRectalCancerWhyAssana", require("./controllers/ColonRectalCancerController/ColonRectalCancerWhyAssana"));
 
 
+app.use("/api/gutWellnessBanner", require("./controllers/GutWellnessController/GutWellnessBanner"));
+app.use("/api/gutWellnessProblems", require("./controllers/GutWellnessController/GutWellnessProblems"));
+
+
+
+
 
 
 // =======================
