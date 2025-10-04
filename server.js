@@ -179,6 +179,14 @@ app.use("/api/colonHydrotherapyProblems", require("./controllers/ColonHydrothera
 app.use("/api/colonHydrotherapyWhyAssana", require("./controllers/ColonHydrotherapyController/ColonHydrotherapyWhyAssana"));
 
 
+app.use("/api/assanaButtBanner", require("./controllers/AssanaButtController/AssanaButtBanner"));
+app.use("/api/assanaButtProblems", require("./controllers/AssanaButtController/AssanaButtProblems"));
+app.use("/api/assanaButtWhyAssana", require("./controllers/AssanaButtController/AssanaButtWhyAssana"));
+
+
+
+
+
 
 
 
