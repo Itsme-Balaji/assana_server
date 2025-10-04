@@ -184,15 +184,8 @@ app.use("/api/assanaButtProblems", require("./controllers/AssanaButtController/A
 app.use("/api/assanaButtWhyAssana", require("./controllers/AssanaButtController/AssanaButtWhyAssana"));
 
 
-
-
-
-
-
-
-
-
-
+app.use("/api/newMomsBanner", require("./controllers/NewMomsController/NewMomsBanner"));
+app.use("/api/newMomsProblems", require("./controllers/NewMomsController/NewMomsProblems"));
 
 
 
