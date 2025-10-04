@@ -169,6 +169,14 @@ app.use("/api/gutWellnessBanner", require("./controllers/GutWellnessController/G
 app.use("/api/gutWellnessProblems", require("./controllers/GutWellnessController/GutWellnessProblems"));
 
 
+app.use("/api/gutBrainAxisBanner", require("./controllers/GutBrainAxisController/GutBrainAxisBanner"));
+app.use("/api/gutBrainAxisProblems", require("./controllers/GutBrainAxisController/GutBrainAxisProblems"));
+app.use("/api/gutBrainAxisWhyAssana", require("./controllers/GutBrainAxisController/GutBrainAxisWhyAssana"));
+
+
+
+
+
 
 
 
