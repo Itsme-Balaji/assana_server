@@ -3,7 +3,7 @@ const express = require("express");
 const router = express.Router();
 const connectDB = require("../../db");
 
-const NewMomsProblems = require("../../models/LaserSurgeryModel/NewMomsProblems");
+const NewMomsProblems = require("../../models/NewMomsModel/NewMomsProblems");
 const { upload } = require("../../middleware");
 const supabase = require("../../supabaseClient");
 
