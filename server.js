@@ -174,6 +174,14 @@ app.use("/api/gutBrainAxisProblems", require("./controllers/GutBrainAxisControll
 app.use("/api/gutBrainAxisWhyAssana", require("./controllers/GutBrainAxisController/GutBrainAxisWhyAssana"));
 
 
+app.use("/api/colonHydrotherapyBanner", require("./controllers/ColonHydrotherapyController/ColonHydrotherapyBanner"));
+app.use("/api/colonHydrotherapyProblems", require("./controllers/ColonHydrotherapyController/ColonHydrotherapyProblems"));
+app.use("/api/colonHydrotherapyWhyAssana", require("./controllers/ColonHydrotherapyController/ColonHydrotherapyWhyAssana"));
+
+
+
+
+
 
 
 
