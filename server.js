@@ -188,6 +188,12 @@ app.use("/api/newMomsBanner", require("./controllers/NewMomsController/NewMomsBa
 app.use("/api/newMomsProblems", require("./controllers/NewMomsController/NewMomsProblems"));   
 
 
+app.use("/api/menopauseBanner", require("./controllers/MenopauseController/MenopauseBanner"));   
+app.use("/api/menopauseProblems", require("./controllers/MenopauseController/MenopauseProblems"));   
+
+
+
+
 
 
 // =======================
